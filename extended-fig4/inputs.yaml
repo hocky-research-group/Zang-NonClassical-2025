@@ -1,0 +1,35 @@
+---
+#inputs
+ 
+gpu: 'True'
+closedwalls: 'True'
+gravity: 0
+chargewall: 0
+radii: 
+brush_lengths: 
+brush_density: 0.09
+debye_length: 5.0
+surface_potentials: 
+dielectric_constant: 80.0
+gamma: 0.001
+massP: 1.0 
+massN: 
+seed: 1
+fraction_positive: 
+lattice_spacing: 
+lattice_repeats: 
+lattice_type: 
+dt: 0.005
+dumptime: 5000 
+seed_file: 
+scale_by: max_radius
+orbit_factor: 1.3
+outputprefix:
+inputfile: 
+nsteps: 1000000001
+temperature: 1.0
+mode: langevin
+
+...
+
+
